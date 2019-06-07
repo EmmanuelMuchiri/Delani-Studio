@@ -7,21 +7,29 @@
   background: #999;
 }
 
-#homepage {
-  position: relative;
+.homepage {
   text-align: center;
   color: white;
-  color: white;
-  align-items: justify;
-}
-#img-click homepage
-{
-  
+  background-image: url("../images/backgrounds/h_img.jpg");
+  background-size: 100%;
+  position: relative;
 }
 
-#centered {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.services {
+  text-align: center;
+  color: white;
+  background-image: url("../images/backgrounds/s_image.jpg");
+  background-size: 100%;
+  position: relative;
+}
+
+.contact-us {
+  text-align: center;
+  background-image: url("../images/backgrounds/c_image.jpg");
+  background-size: 100%;
+  position: relative;
+  color: white;
+}
+.portfolio{
+  text-align: center;
 }

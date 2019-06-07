@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
-  <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
   <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <link rel="shortcut icon" href="images/logo/logo.png">
@@ -13,28 +13,27 @@
 
 <body>
   <div class="container-fluid">
-    <div class="row">
-      <div id="homepage">
-        <img src="images/backgrounds/h_img.jpg" class="img-fluid" alt="background image">
-        <div id="centered">
-          <img src="images/logo/logo.png" alt="company logo"><br><br>
-          <h1 class="text-xl-center">WELCOME <br><br>TO DELANI STUDIO</h1>
-          <p class="text-xl-center">amazing people are making amazing design designs in a fun environment</p>
-            <img src="images/mouse_click.png" class="img-fluid" alt="mouse icon">
-        </div>
+    <div class="homepage jumbotron">
+      <div class="centered">
+        <img src="images/logo/logo.png" alt="company logo"><br><br>
+        <h1 class="text-xl-center">WELCOME <br><br>TO DELANI STUDIO</h1>
+        <p class="text-xl-center">amazing people are making amazing design designs in a fun environment</p>
+        <img src="images/mouse_click.png" class="img-fluid" alt="mouse icon">
       </div>
-      <div class="">
-        <div class="text-center">
-          <h1 class="text-xl-center">ABOUT US</h1>
-          <p>When you work with us,you are part of a team of commited collaborators.All aspects of our software Development
-            process are integrated,interactive and agile.</p>
-          <p>Our approach unifies design,development and product management to create exceptional products.</p>
-          <p>We start each project by understanding your business goals,the user needs and product requirements.</p>
-          <p>Then we help translate them into effective and elegant solutions</p>
-        </div>
+    </div>
+    <div class="container-fluid">
+      <div class="text-center">
+        <h1 class="text-xl-center">ABOUT US</h1>
+        <p>When you work with us,you are part of a team of commited collaborators.All aspects of our software Development
+          process are integrated,interactive and agile.</p>
+        <p>Our approach unifies design,development and product management to create exceptional products.</p>
+        <p>We start each project by understanding your business goals,the user needs and product requirements.</p>
+        <p>Then we help translate them into effective and elegant solutions</p>
       </div>
-      <div id="">
-        <img src="images/backgrounds/s_image.jpg" class="img-fluid" alt="background image">
+    </div>
+    <div class="container-fluid">
+    <div class="services jumbotron">
+      <div class="servicesBody">
         <div class="text-center">
           <h1 class="text-xl-center">SERVICES</h1>
           <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</p>
@@ -43,9 +42,12 @@
         </div>
       </div>
     </div>
-    <div class="">
+      </div>
+    <div class="container-fluid">
       <div class="text-center">
         <h1 class="text-xl-center">WHAT WE DO</h1>
+      </div>
+    </div>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-4">
@@ -66,28 +68,60 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="">
-      <div class="text-center">
-        <h1 class="text-xl-center">PORTFOLIO</h1>
+    <div class="portfolio">
+        <h1>PORTFOLIO</h1>
         <div class="container-fluid">
           <div class="row">
             <div class="col-md-3">
-              <img src=images/portfolio/work1.jpg> </div> <div class="col-md-3">
-              <img src=images/portfolio/work2.jpg> </div> <div class="col-md-3">
-              <img src=images/portfolio/work3.jpg> </div> <div class="col-md-3">
-              <img src=images/portfolio/work4.jpg> </div> </div> </div> <div class="container-fluid">
+              <img src="images/portfolio/work1.jpg">
+            </div>
+               <div class="col-md-3">
+              <img src="images/portfolio/work2.jpg">
+            </div>
+            <div class="col-md-3">
+              <img src="images/portfolio/work3.jpg">
+            </div>
+            <div class="col-md-3">
+              <img src="images/portfolio/work4.jpg">
+            </div>
+          </div>
+        </div>
               <div class="row">
                 <div class="col-md-3">
-                  <img src=images/portfolio/work5.jpg> </div> <div class="col-md-3">
-                  <img src=images/portfolio/work6.jpg> </div> <div class="col-md-3">
-                  <img src=images/portfolio/work7.jpg> </div> <div class="col-md-3">
-                  <img src=images/portfolio/work8.jpg> </div> </div> </div> </div> </div> <div class="">
-                  <div class="text-center">
-                    <h1 class="text-xl-center">CONTACT US</h1>
-                    <img src="images/backgrounds/c_image.jpg" class="img-fluid" alt="background image">
-                  </div>
+                  <img src="images/portfolio/work5.jpg">
                 </div>
+                   <div class="col-md-3">
+                  <img src="images/portfolio/work6.jpg">
+                 </div>
+                  <div class="col-md-3">
+                  <img src="images/portfolio/work7.jpg">
+                </div>
+                  <div class="col-md-3">
+                  <img src="images/portfolio/work8.jpg">
+                </div>
+                </div>
+        </div>
+
+    <div class="contact-us jumbotron">
+      <h1>CONTACT US</h1>
+        <form>
+        <div class="panel-body">
+        <div class="row row-pad-5">
+                        <div class="col-md-6">
+                          <input type="text" name="name" placeholder="Name..." class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                          <input type="email" name="email" placeholder="Email.." class="form-control">
+                        </div><br><br><br>
+                        <div class="col-md-12">
+                          <textarea class="form-control" rows="6" placeholder="Your message..."></textarea>
+                        </div>
+                      </div><br><br>
+                      <div class="panel-footer">
+                        <button class="btn block btn-primary">SUBMIT</button>
+                      </div>
+                      </div>
+                  </form>
               </div>
 </body>
 <footer>
