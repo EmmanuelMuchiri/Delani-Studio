@@ -1,12 +1,3 @@
-#footer {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  height: 30px;
-  width: 100%;
-  background: #999;
-}
-
 .homepage {
   text-align: center;
   color: white;
@@ -30,6 +21,23 @@
   position: relative;
   color: white;
 }
-.portfolio{
+
+.portfolio {
   text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.portfolio img {
+  padding: 10px;
+  width: 100%;
+}
+
+#footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  background: #999;
 }
