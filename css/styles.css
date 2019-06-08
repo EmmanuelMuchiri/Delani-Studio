@@ -32,23 +32,13 @@
   padding: 10px;
   width: 100%;
 }
-.hide p{
-  /* display:none ; */
 
+.hide img {
+  padding: 10px
 }
-.hide img{
-  padding:10px
 
-}
-#design
-{
-
-}
-#dev{
-
-}
-#products{
-
+.align-images {
+  text-align: center;
 }
 
 #footer {

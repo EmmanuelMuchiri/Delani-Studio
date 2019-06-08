@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container">
     <div class="homepage jumbotron">
       <img src="images/logo/logo.png" alt="company logo"><br><br>
       <h1 class="text-xl-center">WELCOME <br><br>TO DELANI STUDIO</h1>
@@ -39,7 +39,7 @@
     <div class="text-center">
       <h1 class="text-xl-center">WHAT WE DO</h1>
     </div>
-    <div class="row">
+    <div class="row align-images">
       <div class="col-md-4 hide" id="design">
         <img src="images/services_icons/design_icon.png">
         <P>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
@@ -92,28 +92,28 @@
 
   <div class="contact-us jumbotron">
     <h1>CONTACT US</h1>
-    <form>
+    <form method="get">
       <div class="panel-body">
         <div class="row row-pad-5">
           <div class="col-md-6">
-            <input type="text" name="name" placeholder="Name..." class="form-control">
+            <input type="text" id="name" placeholder="Name..." class="form-control">
           </div>
           <div class="col-md-6">
-            <input type="email" name="email" placeholder="Email.." class="form-control">
+            <input type="email" id="email" placeholder="Email.." class="form-control">
           </div><br><br><br>
           <div class="col-md-12">
-            <textarea class="form-control" rows="6" placeholder="Your message..."></textarea>
+            <textarea id="message" rows="6" placeholder="Your message..."class="form-control"></textarea>
           </div>
         </div><br><br>
         <div class="panel-footer">
-          <button class="btn block btn-primary">SUBMIT</button>
+          <button class="btn block btn-primary" onclick="submitItems()">SUBMIT</button>
         </div>
       </div>
     </form>
   </div>
 </body>
 <footer>
-  <div class="container-fluid text-center">
+  <div class="container text-center">
     <p>
       <img src="images/social_icons/behance.png" alt="behance icon">
       <img src="images/social_icons/dribble.png" alt="dribble icon">
