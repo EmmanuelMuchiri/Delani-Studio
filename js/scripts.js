@@ -20,12 +20,12 @@ var submitItems = function(name, email, message) {
   var userEmail = document.getElementById('email').value
   var userMessage = document.getElementById('message').value
   var inputValues = null;
-  // var items = [userName, userEmail, userEmail];
+  var items = [userName, userEmail, userEmail];
 
-  if (!userName || !userEmail || !userMessage) {
+  if (!items[0] || !items[1] || !items[2]) {
     alert("Cannot insert empty fields please type again");
   } else {
-    alert("Your Inputs have been submitted successfully");
+    alert("Dear :" + items[0] + " Of Email Address : " + items[1] + " Your message has been submitted");
   }
   return false;
 }
