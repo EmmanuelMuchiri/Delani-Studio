@@ -5,10 +5,11 @@
 #### By **{Emmanuel Muchiri}**
 
 ##Screenshots
-![homepage](images/Screenshots/homepage.png);
-![About Us](images/Screenshots/page2.png);
-![Portfolio](images/Screenshots/page3.png);
-![Contact Us](images/Screenshots/contactus.png)
+
+![homepage](images/screenshots/homepage.png);
+![About Us](images/screenshots/page2.png);
+![Portfolio](images/screenshots/page3.png);
+![Contact Us](images/screenshots/contactus.png)
 
 ## Description
 
@@ -19,7 +20,7 @@
 | Behavior :      | Input | Output example |
 | :--- |    :----: |  ---: |
 | User Enters null values in the contact us form| null,null,null|Cannot insert empty fields please type again |
-| User Enters the appropriate inputs in the contact us form| "Emmanuel ","Emmanuel.Muchiri@outlook,com ","I would want to book an appointment on 15th June 2019"| Dear :Emmanuel Of Email Address : emmanuel.muchiri@gmail.com ;Thank you for contacting us|
+| User Enters the appropriate inputs in the contact us form| "Emmanuel ","Emmanuel.Muchiri@outlook.com ","I would want to book an appointment on 15th June 2019"| Dear :Emmanuel Of Email Address : Emmanuel.Muchiri@outlook.com;Thank you for contacting us|
 
 
 ## Setup/Installation Requirements
