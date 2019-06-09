@@ -71,3 +71,41 @@
   padding-top: 30px;
   padding-bottom: 70px;
 }
+
+#imageTwo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#textTwo {
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  font-family: Arial, Verdana;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+#imageThree {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#textThree {
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  font-family: Arial, Verdana;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
