@@ -30,43 +30,6 @@ $(document).ready(function() {
     }, 500)
     $('#textOne').fadeOut();
   });
-  $('#imageTwo').hover(function() {
-    $(this).stop().animate({
-      opacity: .4
-    }, 200);
-    $('#textTwo').fadeIn();
-
-  }, function() {
-    $(this).stop().animate({
-      opacity: 1
-    }, 500)
-    $('#textTwo').fadeOut();
-  });
-  $('#imageThree').hover(function() {
-    $(this).stop().animate({
-      opacity: .4
-    }, 200);
-    $('#textThree').fadeIn();
-
-  }, function() {
-    $(this).stop().animate({
-      opacity: 1
-    }, 500)
-    $('#textThree').fadeOut();
-  });
-  $('#imageFour').hover(function() {
-    $(this).stop().animate({
-      opacity: .4
-    }, 200);
-    $('#textFour').fadeIn();
-
-  }, function() {
-    $(this).stop().animate({
-      opacity: 1
-    }, 500)
-    $('#textFour').fadeOut();
-  });
-
 });
 
 var submitItems = function(name, email, message) {
