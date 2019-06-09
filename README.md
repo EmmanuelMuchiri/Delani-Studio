@@ -15,7 +15,7 @@
 
 {This is a website that we developed for our client by the name Delani Studio to help in marketing and building a portfolio for them in this highly competitive industry.It contains all the information you need to know about Delani Studio and a contact form with which you can communicate to us in case of any queries or bookings}
 
-##Behavior Driven Development
+## Behavior Driven Development
 
 | Behavior :      | Input | Output example |
 | :--- |    :----: |  ---: |
