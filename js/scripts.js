@@ -67,7 +67,7 @@ $(document).ready(function() {
     }, 500)
     $('#textThree').fadeOut();
   });
-  
+
 });
 
 var submitItems = function(name, email, message) {
