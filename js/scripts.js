@@ -12,6 +12,61 @@ $(document).ready(function() {
     $("#products p").toggle();
     $("#products img").toggle();
   });
+  $('#textOne').hide();
+  $('#imageOne').animate({
+    opacity: 1
+
+  });
+
+  $('#imageOne').hover(function() {
+    $(this).stop().animate({
+      opacity: .4
+    }, 200);
+    $('#textOne').fadeIn();
+
+  }, function() {
+    $(this).stop().animate({
+      opacity: 1
+    }, 500)
+    $('#textOne').fadeOut();
+  });
+  $('#imageTwo').hover(function() {
+    $(this).stop().animate({
+      opacity: .4
+    }, 200);
+    $('#textTwo').fadeIn();
+
+  }, function() {
+    $(this).stop().animate({
+      opacity: 1
+    }, 500)
+    $('#textTwo').fadeOut();
+  });
+  $('#imageThree').hover(function() {
+    $(this).stop().animate({
+      opacity: .4
+    }, 200);
+    $('#textThree').fadeIn();
+
+  }, function() {
+    $(this).stop().animate({
+      opacity: 1
+    }, 500)
+    $('#textThree').fadeOut();
+  });
+  $('#imageFour').hover(function() {
+    $(this).stop().animate({
+      opacity: .4
+    }, 200);
+    $('#textFour').fadeIn();
+
+  }, function() {
+    $(this).stop().animate({
+      opacity: 1
+    }, 500)
+    $('#textFour').fadeOut();
+  });
+
 });
 
 var submitItems = function(name, email, message) {
@@ -19,13 +74,12 @@ var submitItems = function(name, email, message) {
   var userName = document.getElementById('name').value
   var userEmail = document.getElementById('email').value
   var userMessage = document.getElementById('message').value
-  var inputValues = null;
   var items = [userName, userEmail, userEmail];
 
   if (!items[0] || !items[1] || !items[2]) {
     alert("Cannot insert empty fields please type again");
   } else {
-    alert("Dear :" + items[0] + " Of Email Address : " + items[1] + " Your message has been submitted");
+    alert("Dear :" + items[0] + " Of Email Address : " + items[1] + " Thank you for contacting us");
   }
   return false;
 }

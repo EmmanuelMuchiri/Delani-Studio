@@ -29,16 +29,12 @@
 }
 
 .portfolio img {
-  padding: 10px;
+  padding: 20px;
   width: 100%;
 }
 
 .hide img {
-  padding: 10px
-}
-
-.align-images {
-  text-align: center;
+  padding: px
 }
 
 #footer {
@@ -50,36 +46,83 @@
   background: #999;
 }
 
-.hoverclass {
-  transition: .8s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.caption {
+  display: table-caption;
   text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
-.col-md-3:hover .image {
-  opacity: 6;
+#imageOne {
+  position: absolute;
+  left: 0;
+  top: 0;
 }
-
-.col-md-3:hover .hoverclass {
-  opacity: 1;
-}
-
-.texthover {
+#textOne {
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  font-family: Arial, Verdana;
   color: white;
   font-size: 30px;
-  padding: 16px 32px;
-  border: 3px solid white;
+  font-weight: bold;
+  border: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
-.image {
-  opacity: 1;
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: .8s ease;
-  backface-visibility: hidden;
+
+#imageTwo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#textTwo {
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  font-family: Arial, Verdana;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+#imageThree {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#textThree {
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  font-family: Arial, Verdana;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+#imageFour {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#textFour {
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  font-family: Arial, Verdana;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 70px;
 }
