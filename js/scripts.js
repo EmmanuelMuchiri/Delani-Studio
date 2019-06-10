@@ -67,20 +67,17 @@ $(document).ready(function() {
     }, 500)
     $('#textThree').fadeOut();
   });
+  $("#formElements").submit(function(e) {
+    var userName = document.getElementById("name").value
+    var userEmail = document.getElementById("email").value
+    var userMessage = document.getElementById("message").value
 
+    var items = [userName, userEmail, userMessage];
+
+    if (!items[0] || !items[1] || !items[2]) {
+      alert("Cannot insert empty fields please type again");
+    } else {
+      alert("Dear :" + items[0] + " Of Email Address : " + items[1] + " Thank you for contacting us");
+    }
+  });
 });
-
-var submitItems = function(name, email, message) {
-
-  var userName = document.getElementById('name').value
-  var userEmail = document.getElementById('email').value
-  var userMessage = document.getElementById('message').value
-  var items = [userName, userEmail, userEmail];
-
-  if (!items[0] || !items[1] || !items[2]) {
-    alert("Cannot insert empty fields please type again");
-  } else {
-    alert("Dear :" + items[0] + " Of Email Address : " + items[1] + " Thank you for contacting us");
-  }
-  return false;
-}
