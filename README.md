@@ -4,7 +4,7 @@
 
 #### By **{Emmanuel Muchiri}**
 
-##Screenshots
+## Screenshots
 
 ![homepage](images/screenshots/homepage.png);
 ![About Us](images/screenshots/page2.png);
