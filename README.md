@@ -1,6 +1,6 @@
-# Triangle-Tracker
+# Delani Studio
 
-#### {This application is used to determine what type of triangle is based on the dimensions supplied by the use}, {10 June 2019}
+#### {This is a website that I created for Delani Studio.It has interactrive features and a contact form that allows you to book a studio session with us}, {10 June 2019}
 
 #### By **{Emmanuel Muchiri}**
 
